@@ -1,0 +1,17 @@
+listen-on port 53 {10.0.0.1; };
+allow-query	{ any; };
+
+
+**********Explanation***********************
+*The first line means the port number 	 *
+*and the ip address on which the request	 *
+*to be heard.					 *
+*It can be multiple ip-address each 	 *
+*ending with ";" .				 *
+*							 *
+*The second line means the request are	 *
+*accepted from which localhosts or 		 *
+*networks.						 *
+*Any here means from any address the   	 *
+*request can be queried.			 *
+********************************************
