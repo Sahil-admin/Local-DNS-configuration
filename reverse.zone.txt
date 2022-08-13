@@ -1,0 +1,11 @@
+$TTL 1D
+@		IN	SOA	dns1.server.com.		root.dns1.server.com.	(
+									0	; serial
+									1D	; refresh
+									1H	; retry
+									1W	; expire
+									3H)	; minimum
+	IN	NS	dns1.server.com.
+1	IN	PTR	dns1.server.com.
+2	IN	PTR	client1.server.com.
+3	IN	PTR	client2.server.com.

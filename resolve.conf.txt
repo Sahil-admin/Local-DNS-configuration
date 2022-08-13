@@ -1,0 +1,14 @@
+search server.com
+nameserver 10.0.0.1
+
+
+*********Explanaton*************
+*This is to specidy on each	 *
+*machine where to issue the	 *
+*request for address resolution*
+*which is to be done on		 *
+*dns-server as well dns-client.*
+*					 *
+*The ip-address mentioned is	 *
+*the address of the dns-server.*
+********************************

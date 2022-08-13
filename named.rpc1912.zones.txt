@@ -1,0 +1,29 @@
+zone "server.com" IN {
+	type master;
+	file "forward.zone";
+	allow-update { none; };
+}
+
+zone "0.0.10.in-addr.arpa" IN {
+	type master;
+	file "reverse.zone";
+	allow-update { none; };
+}
+
+
+
+*************Explanation************
+*The first zone is made to specify *
+*the forward zone that is name to  *
+*address resolution zone and the   *
+*details are stored in file named  *
+*as forward.zone which is in path  *
+* /var/named .			     *
+*					     *
+*The second zone is made to specify*
+*the reverse zone that is address  *
+*to name resolution and the details*
+*are stored in file named as 	     *
+*reverse.zone which is in          *
+*path /var/named .		     *
+************************************
