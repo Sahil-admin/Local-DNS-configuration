@@ -8,6 +8,7 @@ Step 1:
 Install bind packages which are the DNS packages.
   yum install bind* -y
 Use this command to install them.
+{if not configured yum check-out my other repo which explains how to setup yum}
 
 Step 2:
 As it is a local dns server make changes to your ethernet files which can be named as "ifcfg-enp0s3" or similar to this.
